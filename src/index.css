@@ -192,7 +192,19 @@
   }
 
   .contact-page {
-    @apply flex flex-wrap my-8 mx-40 items-center justify-center gap-[15vw];
+    @apply flex flex-wrap my-8 mx-40 items-center justify-center gap-[13vw];
+  }
+
+  @media (max-width:900px) {
+    .contact-page{
+      @apply mx-20;
+    }
+  }
+
+  @media (max-width:600px) {
+    .contact-page{
+      @apply mx-8;
+    }
   }
 
   .contact-info {
@@ -205,8 +217,7 @@
     @apply flex flex-col gap-4;
     flex: 1;
     min-width: max-content;
-    overflow-x: hidden;
-    animation: fade-down 1.3s ease;
+    animation: fade-down 1.0s ease;
   }
 
   .message-div input,
@@ -225,11 +236,11 @@
     font-weight: 400;
     font-size: 14px;
     border-radius: 10px;
-    animation: fade-right 1.3s ease;
+    animation: fade-right 1.0s ease;
   }
 
   .contact-icons {
     @apply text-[26px] opacity-70 hover:opacity-40;
-    animation: fade-right 1.7s ease;
+    animation: fade-right 1.5s ease;
   }
 }
