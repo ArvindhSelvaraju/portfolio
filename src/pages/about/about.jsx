@@ -28,9 +28,9 @@ export const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-8 mb-20">
+      <div className="flex flex-col gap-10 mb-20">
         <h1 className="font-medium text-2xl">My Skills</h1>
-        <div className="flex flex-wrap gap-12">
+        <div className="flex flex-wrap items-center justify-center gap-12">
           <img src={C_Logo} alt="c-logo" className="h-28 w-28" />
           <img src={Cpp_Logo} alt="cpp-logo" className="h-28 w-28" />
           <img src={Java_Logo} alt="java-logo" className="h-28 w-28" />
