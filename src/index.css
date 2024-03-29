@@ -64,7 +64,7 @@
   }
 
   .home-page {
-    @apply flex flex-wrap my-[5vw] mx-[12vw] gap-[12vw];
+    @apply flex flex-wrap mt-[5vw] mb-20 mx-[12vw] gap-[12vw];
     animation: fade-up 0.8s;
   }
 
