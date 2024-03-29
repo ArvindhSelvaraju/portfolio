@@ -1,5 +1,9 @@
 import React from "react";
-import { Download } from "@mui/icons-material";
+import C_Logo from '../../images/C_Logo.png';
+import Cpp_Logo from '../../images/C++_Logo.png';
+import Java_Logo from '../../images/Java_Logo.png';
+import React_Logo from '../../images/React_Logo.png';
+import SpringBoot_Logo from '../../images/SpringBoot_Logo.png';
 
 export const About = () => {
   return (
@@ -24,68 +28,15 @@ export const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-8">
-        <h1 className="font-normal text-2xl">My Skills</h1>
-        {/* <div className="mx-20 flex flex-col gap-5">
-          <div className="skills">
-            <p>C/C++</p>
-            <div className="bar">
-              <span style={{ width: "80%" }}></span>
-            </div>
-          </div>
-          <div className="skills">
-            <p>Java</p>
-            <div className="bar">
-              <span style={{ width: "80%" }}></span>
-            </div>
-          </div>
-          <div className="skills">
-            <p>React JS</p>
-            <div className="bar">
-              <span style={{ width: "75%" }}></span>
-            </div>
-          </div>
-          <div className="skills">
-            <p>MySQL</p>
-            <div className="bar">
-              <span style={{ width: "70%" }}></span>
-            </div>
-          </div>
-          <div className="skills">
-            <p>SpringBoot</p>
-            <div className="bar">
-              <span style={{ width: "65%" }}></span>
-            </div>
-          </div>
-          <div className="flex flex-row gap-20 mt-8 mx-6">
-            <div className="flex flex-col gap-2 font-thin text-sm text-[#CCCCCC] my-3">
-              <p>
-                <b>Front-end:</b>
-              </p>
-              <ul className="list-disc">
-                <li>
-                  <p>Tailwind CSS</p>
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-2 font-thin text-sm text-[#CCCCCC] my-3">
-              <p>
-                <b>Back-end:</b>
-              </p>
-              <ul className="list-disc">
-                <li>
-                  <p>Firebase</p>
-                </li>
-              </ul>
-            </div>
-          </div>
+      <div className="flex flex-col gap-8 mb-20">
+        <h1 className="font-medium text-2xl">My Skills</h1>
+        <div className="flex flex-wrap gap-12">
+          <img src={C_Logo} alt="c-logo" className="h-28 w-28" />
+          <img src={Cpp_Logo} alt="cpp-logo" className="h-28 w-28" />
+          <img src={Java_Logo} alt="java-logo" className="h-28 w-28" />
+          <img src={React_Logo} alt="react-logo" className="h-28 w-28" />
+          <img src={SpringBoot_Logo} alt="spring-logo" className="h-28 w-28" />
         </div>
-        <div className="mx-20 mb-10">
-          <button className="resume-download">
-            <Download className="bg-transparent" style={{ fill: "#0F0F0F" }} />
-            Download Resume
-          </button>
-        </div> */}
       </div>
     </div>
   );
