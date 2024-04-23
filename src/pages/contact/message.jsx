@@ -14,10 +14,10 @@ export const Message = () => {
         <input placeholder="Email" />
         <input placeholder="Subject" />
         <textarea placeholder="Message" />
-        <button type="submit">
+        <button type="submit" className="hover:opacity-80">
           <Telegram
             style={{ backgroundColor: "transparent", fill: "#0F0F0F" }}
-          />{" "}
+          />
           SEND MESSAGE
         </button>
       </form>
